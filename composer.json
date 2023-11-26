@@ -1,7 +1,7 @@
 {
-    "name": "sweet/swiftmailer",
+    "name": "icsweet/swiftmailer",
     "type": "library",
-    "description": "Sweet/Swiftmailer, clone of the free feature-rich PHP mailer now abandoned",
+    "description": "IcSweet/Swiftmailer, clone of the free feature-rich PHP mailer now abandoned",
     "keywords": [
         "mail",
         "mailer",
