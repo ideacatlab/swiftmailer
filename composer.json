@@ -1,0 +1,52 @@
+{
+    "name": "sweet/swiftmailer",
+    "type": "library",
+    "description": "Sweet/Swiftmailer, clone of the free feature-rich PHP mailer now abandoned",
+    "keywords": [
+        "mail",
+        "mailer",
+        "email"
+    ],
+    "homepage": "https://sweetswift.ideacat.ro",
+    "support": {
+        "issues": "https://github.com/ideacatlab/swiftmailer/issues",
+        "source": "https://github.com/ideacatlab/swiftmailer"
+    },
+    "authors": [
+        {
+            "name": "Razvan Gheorghe",
+            "email": "php@ideacat.ro"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "egulias/email-validator": "^4.0.2",
+        "symfony/polyfill-iconv": "^1.x-dev",
+        "symfony/polyfill-mbstring": "^1.x-dev",
+        "symfony/polyfill-intl-idn": "^1.x-dev"
+    },
+    "require-dev": {
+        "mockery/mockery": "^2.0.x-dev",
+        "symfony/phpunit-bridge": "^7.1.x-dev"
+    },
+    "suggest": {
+        "ext-intl": "Needed to support internationalized email addresses"
+    },
+    "autoload": {
+        "files": [
+            "lib/swift_required.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Swift_": "tests/unit"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
